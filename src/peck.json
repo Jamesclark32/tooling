@@ -1,0 +1,31 @@
+{
+    "preset": "laravel",
+    "ignore": {
+        "words": [
+            "apis",
+            "barryvdh",
+            "composables",
+            "debugbar",
+            "dropdown",
+            "dto",
+            "eslint",
+            "favicon",
+            "filesystems",
+            "globals",
+            "inertiajs",
+            "js",
+            "nav",
+            "php",
+            "rss",
+            "ssr",
+            "tooltip",
+            "tsconfig",
+            "upsertable",
+            "utils",
+            "uuid",
+            "viewport",
+            "wayfinder"
+        ],
+        "paths": []
+    }
+}

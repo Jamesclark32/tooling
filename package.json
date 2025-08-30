@@ -1,0 +1,9 @@
+{
+    "scripts": {
+        "format": "prettier --write resources/",
+        "format:check": "prettier --check resources/",
+        "lint": "eslint . --fix",
+        "format:dirty": "npx prettier --config .prettierrc -u -w $(git diff --name-only --diff-filter=d HEAD | xargs)",
+        "format:check:dirty": "npx prettier --config .prettierrc -u -l $(git diff --name-only --diff-filter=d HEAD | xargs)"
+    }
+}
